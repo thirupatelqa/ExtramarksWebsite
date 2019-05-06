@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="none">
+  <test name="Regression1(failed)" parallel="none">
+    <classes>
+      <class name="com.extramarks.website.TestCases.LoginPageTest">
+        <methods>
+          <include name="pageLogo"/>
+        </methods>
+      </class> <!-- com.extramarks.website.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
